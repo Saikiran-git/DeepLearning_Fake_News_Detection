@@ -1,0 +1,40 @@
+.app-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 20px;
+  text-align: center;
+}
+
+label {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+input {
+  padding: 8px;
+  font-size: 1em;
+}
+
+button {
+  padding: 10px;
+  font-size: 1em;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
